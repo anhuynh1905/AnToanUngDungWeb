@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Favicon (Biểu tượng nhỏ trên tab trình duyệt) -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Viewport meta tag để responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Theme color (cho trình duyệt mobile) -->
+    <meta name="theme-color" content="#000000" />
+    <!-- Mô tả trang web (cho SEO và chia sẻ) -->
+    <meta
+      name="description"
+      content="Web site created using create-react-app for Library Management"
+    />
+    <!-- Link tới Apple touch icon (nếu cần) -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json cung cấp metadata cho Progressive Web Apps (PWA).
+      %PUBLIC_URL% sẽ được thay thế bằng đường dẫn tới thư mục public trong quá trình build.
+      Chỉ file trong thư mục public mới có thể được tham chiếu bằng %PUBLIC_URL%.
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Lưu ý về việc sử dụng %PUBLIC_URL%:
+      Bạn cần đặt các file tĩnh như favicon.ico, logo192.png, manifest.json trong thư mục `public`.
+      Trong mã nguồn JavaScript hoặc CSS, bạn có thể sử dụng process.env.PUBLIC_URL.
+    -->
+    <title>Library App</title> <!-- Tiêu đề hiển thị trên tab trình duyệt -->
+  </head>
+  <body>
+    <!-- Thông báo cho người dùng nếu JavaScript bị tắt -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Đây là phần tử DOM quan trọng nhất nơi React sẽ render ứng dụng -->
+    <div id="root"></div>
+
+    <!--
+      File HTML này là một template.
+      Nếu bạn mở nó trực tiếp trong trình duyệt, bạn sẽ thấy một trang trống.
+
+      Bạn có thể thêm các webfonts, meta tags, hoặc analytics vào file này.
+      Quá trình build sẽ tự động chèn các thẻ <script> đã được bundle vào file HTML này.
+    -->
+  </body>
+</html>

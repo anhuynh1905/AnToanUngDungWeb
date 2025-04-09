@@ -1,0 +1,9 @@
+{
+    "short_name": "Library App",
+    "name": "Simple Library Management App",
+    
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#007bff", 
+    "background_color": "#ffffff"
+  }
